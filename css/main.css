@@ -1,4 +1,55 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+body{
+    background-color: hsl(218, 28%, 13%);
+    padding: 20px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+/* nav starts */
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.logo img{
+    width: 90px;
+}
+.links ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.links ul li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    justify-content: space-around;
+    margin-left: 20px;
+}
+/* nav ends */
+
+/* Hero section starts  */
+.hero-section{
+    text-align: center;
+    background-image: url(/images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-position-y:187px;
+}
+.illustration-container img{
+    width: 320px;
+}
+.hero-content h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color:hsl(0, 0%, 100%);
+   
+}
+
+/* Hero section ends  */
