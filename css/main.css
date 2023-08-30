@@ -36,6 +36,7 @@ nav{
 /* Hero section starts  */
 .hero-section{
     text-align: center;
+    margin: 0 20px;
     background-image: url(/images/bg-curvy-mobile.svg);
     background-repeat: no-repeat;
     background-position: fixed;
@@ -43,13 +44,93 @@ nav{
 }
 .illustration-container img{
     width: 320px;
+    padding-bottom: 20px;
 }
 .hero-content h1{
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
     color:hsl(0, 0%, 100%);
-   
+    padding:18px 0;
 }
-
+.hero-content p{
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    color:hsl(0, 0%, 100%);
+    padding-bottom: 20px; 
+}
+button.hero-btn{
+    padding: 10px 80px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    background-color:hsl(198, 60%, 50%);
+    color:hsl(0, 0%, 100%) ;
+    border-radius: 20px;
+    border: none;
+}
 /* Hero section ends  */
+
+/* Products sections Starts */
+.products{
+    text-align: center;
+    margin :80px 5px;
+}
+ .access img, .security img, .real-time img, .store img{
+    width: 60px;
+    margin: 80px 0 25px 0;
+}
+.access , .security, .real-time, .store {
+    color: hsl(0, 0%, 100%);
+}
+.access p, .security p, .real-time p, .store p{
+   margin-top: 5px;
+}
+/* Products sections ends */
+
+/* Assurance Section starts */
+.assurance{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 150px;
+}
+.stay-productive-logo img{
+    width: 300px;
+    margin-top: 100px;
+}
+.stay-productive-content{
+    text-align: left;
+}
+.stay-productive-content h2{
+    font-size: 19px;
+    margin: 20px 0;
+}
+.never-let-location{
+    margin-bottom: 10px;
+}
+.securely-share-files{
+    margin-bottom: 10px;
+}
+.stay-productive-content a{
+    color:hsl(176, 68%, 64%) ;
+    font-size: 12px;
+    text-decoration: none;
+}
+.stay-productive-content a img{
+    position: relative;
+    top: 5px;
+}
+hr{
+    width: 128px;
+    height: 1px;
+    border: none;
+    margin-top: 3px;
+    background-color: hsl(176, 68%, 64%) ;
+}
+/* Assurance Section ends */
+
+/* Testimonial Section Starts */
+
+/* Testimonial Section ends */
