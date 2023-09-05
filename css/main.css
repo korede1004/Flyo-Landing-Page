@@ -133,6 +133,8 @@ hr{
 
 /* Testimonial Section Starts */
 .quote{
+    display: block;
+    justify-content: center;
     position: relative;
     top: 6px;
     left: 16px;
@@ -236,9 +238,7 @@ hr{
 }
 
 /* footer starts */
-/* footer{
-   color: White: hsl(0, 0%, 100%);
-} */
+
 .flyoLogo img{
     width: 150px;
     margin: 20px 50px 25px 20px;
