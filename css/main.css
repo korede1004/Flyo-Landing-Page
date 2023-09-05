@@ -133,8 +133,6 @@ hr{
 
 /* Testimonial Section Starts */
 .quote{
-    display: block;
-    justify-content: center;
     position: relative;
     top: 6px;
     left: 16px;
@@ -146,7 +144,7 @@ hr{
 /* satish-patel-card starts */
 .satish-patel-card{
     width: 310px;
-    margin-left: 14px;
+    margin: 0 auto;
     margin-bottom: 25px;
     line-height: 18px;
     border-radius: 2px;
@@ -177,7 +175,7 @@ hr{
 /* bruce-mckenzie-card starts */
 .bruce-mckenzie-card{
     width: 310px;
-    margin-left: 14px;
+    margin: 0 auto;
     margin-bottom: 25px;
     line-height: 18px;
     border-radius: 2px;
@@ -191,7 +189,7 @@ hr{
 /* iva-boyd-card starts */
 .iva-boyd-card{
     width: 310px;
-    margin-left: 14px;
+    margin: 0 auto;
     margin-bottom: 150px;
     line-height: 18px;
     border-radius: 2px;
