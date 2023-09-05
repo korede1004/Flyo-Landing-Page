@@ -234,3 +234,84 @@ hr{
     border-radius: 25px;
     border: none;
 }
+
+/* footer starts */
+/* footer{
+   color: White: hsl(0, 0%, 100%);
+} */
+.flyoLogo img{
+    width: 150px;
+    margin: 20px 50px 25px 20px;
+    padding-top: 20px;
+}
+.location{
+display: flex;
+}
+.paraimg{
+    padding-top: 10px;
+}
+.para p{
+    color:hsl(0, 0%, 100%); 
+    font-size: 16px;
+    margin-left: 40px;
+ /* margin-bottom:10px ; */
+}
+.flyo-contact{
+    display: flex;
+    padding-top: 20px;
+    color:hsl(0, 0%, 100%); 
+}
+.number p{
+    color:hsl(0, 0%, 100%); 
+    font-size: 14px;
+    margin-left: 35px;
+}
+.flyo-mail{
+    display: flex;
+    padding-top: 20px;
+    color:hsl(0, 0%, 100%);
+}
+.femail{
+    font-size: 14px;
+    margin-left: 35px;
+}
+.footer-first-list{
+    padding-top: 50px;
+}
+.footer-first-list ul li{
+    list-style-type: none;
+    color:hsl(0, 0%, 100%) ;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.footer-second-list{
+    padding-top: 25px;
+}
+.footer-second-list ul li{
+    list-style-type: none;
+    color:hsl(0, 0%, 100%) ;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.social-links {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size:12px;
+    color: hsl(0, 0%, 100%) ;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.social-links a{
+
+    /* background-color: black; */
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid white;
+    /* width: 10px; */
+    /* height: 5px; */
+    border-radius: 50%;
+}
+
+/* footer ends */
