@@ -134,8 +134,8 @@ hr{
 /* Testimonial Section Starts */
 .quote{
     position: relative;
-    top: 6px;
-    left: 22px;
+    top: 8px;
+    left: 20px;
     z-index: -1;
 }
 .quote img{
