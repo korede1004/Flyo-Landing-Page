@@ -135,7 +135,7 @@ hr{
 .quote{
     position: relative;
     top: 8px;
-    left: 20px;
+    right: -24px;
     z-index: -1;
 }
 .quote img{
