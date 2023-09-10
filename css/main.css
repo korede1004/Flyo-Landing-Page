@@ -302,13 +302,20 @@ display: flex;
     margin-bottom: 20px;
 }
 .social-links a{
-
-    /* background-color: black; */
-    padding: 5px;
     margin: 5px;
     border: 1px solid white;
-    /* width: 10px; */
-    /* height: 5px; */
+}
+.face a{
+    /* background-color: yellow; */
+    padding: 12px 16px;
+    border-radius: 50%;
+}
+.twiter a{
+    padding:12px 14px;
+    border-radius: 50%;
+}
+.insta a{
+    padding: 12px 15px;
     border-radius: 50%;
 }
 
