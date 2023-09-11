@@ -211,6 +211,10 @@ hr{
     font-size: 14px;
     padding:35px 20px;
     color:hsl(0, 0%, 100%) ;
+   position: relative;
+   /* bottom: 20px; */
+    z-index: 1;
+
 }
 
 .get-early-access-card p{
@@ -236,7 +240,18 @@ hr{
 }
 
 /* footer starts */
-
+footer{
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -60px;
+    margin-top:-160px;
+    background-color:hsl(216, 53%, 9%);
+}
+.foot{
+    margin: 20px 20px 20px 20px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
 .flyoLogo img{
     width: 150px;
     margin: 20px 50px 25px 20px;
@@ -252,7 +267,6 @@ display: flex;
     color:hsl(0, 0%, 100%); 
     font-size: 16px;
     margin-left: 40px;
- /* margin-bottom:10px ; */
 }
 .flyo-contact{
     display: flex;
@@ -292,7 +306,6 @@ display: flex;
     font-size: 16px;
 }
 .social-links {
-    /* background-color: blue; */
     display: flex;
     justify-content: center;
     text-align: center;
@@ -301,14 +314,17 @@ display: flex;
     margin-top: 80px;
     margin-bottom: 20px;
 }
+.social-links {
+    padding: 20px;
+}
 .social-links a{
-    margin: 5px;
+    margin: -5px 5px;
     border: 1px solid white;
 }
 .face a{
-    /* background-color: yellow; */
     padding: 12px 16px;
     border-radius: 50%;
+    
 }
 .twiter a{
     padding:12px 14px;
