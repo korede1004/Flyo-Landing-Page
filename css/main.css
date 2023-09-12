@@ -9,7 +9,10 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 99e3064 (Working on the Desktop screen size)
 /* nav starts */
 nav{
     
@@ -21,24 +24,18 @@ nav{
 .logo img{
     width: 120px;
 }
-@media screen and (max-width:1440px) {
-    .logo img:active{
-        width: 220px;
-    }   
-}
-
 .links ul{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
 }
-
 .links ul li a{
     text-decoration: none;
     color: hsl(0, 0%, 100%);
     justify-content: space-around;
     margin-left: 20px;
 }
+<<<<<<< HEAD
 @media screen and (max-width:1440px) {
     .links ul li {
         margin-top: 20px;
@@ -50,6 +47,8 @@ nav{
     text-decoration: underline;
     font-weight: 700;
 }
+=======
+>>>>>>> parent of 99e3064 (Working on the Desktop screen size)
 /* nav ends */
 
 /* Hero section starts  */
@@ -65,13 +64,17 @@ nav{
     width: 320px;
     padding-bottom: 20px;
 }
+<<<<<<< HEAD
 @media screen and (max-width:1440px) {
     .illustration-container img{
         width: 500px;
         padding: 40px 0;
     }
 }
+=======
+>>>>>>> parent of 99e3064 (Working on the Desktop screen size)
 .hero-content h1{
+    /* font-family: 'Raleway', sans-serif; */
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 22px;
@@ -90,6 +93,7 @@ nav{
     }
 }
 .hero-content p{
+    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Raleway', sans-serif;
     font-size:14px;
     font-weight: 400;
@@ -246,6 +250,7 @@ hr{
     padding:35px 20px;
     color:hsl(0, 0%, 100%) ;
    position: relative;
+   /* bottom: 20px; */
     z-index: 1;
 
 }
