@@ -31,17 +31,6 @@ nav{
     justify-content: space-around;
     margin-left: 20px;
 }
-@media screen and (max-width:1440px) {
-    .links ul li {
-        margin-top: 20px;
-        margin-left: 70px;
-    }
-}
-.links ul li a:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    font-weight: 700;
-}
 /* nav ends */
 
 /* Hero section starts  */
@@ -56,12 +45,6 @@ nav{
 .illustration-container img{
     width: 320px;
     padding-bottom: 20px;
-}
-@media screen and (max-width:1440px) {
-    .illustration-container img{
-        width: 500px;
-        padding: 40px 0;
-    }
 }
 .hero-content h1{
     /* font-family: 'Raleway', sans-serif; */
