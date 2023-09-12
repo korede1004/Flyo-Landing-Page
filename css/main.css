@@ -9,10 +9,6 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of 99e3064 (Working on the Desktop screen size)
 /* nav starts */
 nav{
     
@@ -35,7 +31,6 @@ nav{
     justify-content: space-around;
     margin-left: 20px;
 }
-<<<<<<< HEAD
 @media screen and (max-width:1440px) {
     .links ul li {
         margin-top: 20px;
@@ -47,8 +42,6 @@ nav{
     text-decoration: underline;
     font-weight: 700;
 }
-=======
->>>>>>> parent of 99e3064 (Working on the Desktop screen size)
 /* nav ends */
 
 /* Hero section starts  */
@@ -64,15 +57,12 @@ nav{
     width: 320px;
     padding-bottom: 20px;
 }
-<<<<<<< HEAD
 @media screen and (max-width:1440px) {
     .illustration-container img{
         width: 500px;
         padding: 40px 0;
     }
 }
-=======
->>>>>>> parent of 99e3064 (Working on the Desktop screen size)
 .hero-content h1{
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Open Sans', sans-serif;
