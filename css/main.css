@@ -19,11 +19,23 @@ nav{
 }
 .logo img{
     width: 120px;
+    cursor: pointer;
+}
+@media screen and (min-width:1024px) {
+    .logo img{
+        width: 150px;
+    }
 }
 .links ul{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+}
+
+@media screen and (min-width:1024px) {
+    .links ul li{
+        margin-left: 40px;
+    }
 }
 .links ul li a{
     text-decoration: none;
@@ -31,6 +43,14 @@ nav{
     justify-content: space-around;
     margin-left: 20px;
 }
+.links ul li a:hover{
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+
 /* nav ends */
 
 /* Hero section starts  */
@@ -43,9 +63,29 @@ nav{
     background-position-y:187px;
 }
 .illustration-container img{
+    cursor: pointer;
     width: 320px;
     padding-bottom: 20px;
 }
+@media screen and (min-width:1024px) {
+    .illustration-container img{
+        width: 450px;
+    }
+        
+}
+
+.hero-content{
+    width: 100%;
+    /* margin: 0 auto; */
+}
+@media screen and (min-width:1024px) {
+    .hero-content{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+
 .hero-content h1{
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Open Sans', sans-serif;
@@ -54,17 +94,13 @@ nav{
     color:hsl(0, 0%, 100%);
     padding:18px 0;
 }
-@media screen and (max-width:1440px) {
-    .hero-content{
-        /* width: 450px; */
-        /* margin: 0 auto; */
-        /* font-family: 'Open Sans', sans-serif; */
-        /* font-weight: 700; */
-        /* font-size: 22px; */
-        /* color:hsl(0, 0%, 100%); */
-        /* padding:18px 0; */
+@media screen and (min-width:1024px) {
+    .hero-content h1{
+        font-size: 30px;
+        margin-bottom: 20px; 
     }
 }
+
 .hero-content p{
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Raleway', sans-serif;
@@ -73,7 +109,14 @@ nav{
     color:hsl(0, 0%, 100%);
     padding-bottom: 20px; 
 }
+@media screen and (min-width:1024px) {
+    .hero-content p{
+        font-size: 22px;
+        margin-bottom: 20px; 
+    }
+}
 button.hero-btn{
+    cursor: pointer;
     padding: 10px 80px;
     font-family:'Raleway', sans-serif;
     font-weight: 400;
@@ -82,6 +125,11 @@ button.hero-btn{
     border-radius: 20px;
     border: none;
 }
+@media screen and (min-width:1024px) {
+    button.hero-btn{
+        font-size: 22px; 
+    }
+}
 /* Hero section ends  */
 
 /* Products sections Starts */
@@ -89,16 +137,69 @@ button.hero-btn{
     text-align: center;
     margin :80px 5px;
 }
- .access img, .security img, .real-time img, .store img{
+@media screen and (min-width:1024px) {
+    .products{
+        margin :0 auto;
+        /* display: flex;
+        justify-content: space-between;
+         */
+        width: 100%;
+        display: grid;
+        grid-template-areas:'a b' 'c d';
+        row-gap: 50px;
+        column-gap: 50px;
+        margin: 0 auto;
+       
+    }
+    /* .system{
+        margin-left: 150px;
+        margin-right: 50px;
+    }
+    .systems{
+        margin-right: 150px;
+        margin-left: 50px;
+    } */
+}
+@media screen and (min-width:1024px) {
+    .access{
+        grid-area: a;
+        width: 352px;
+        margin: 0 auto;
+    }
+    .security{
+        grid-area: b;
+        width: 370px;
+        margin: 0 auto;
+    }
+   .real-time{
+    grid-area: c;
+    width: 360px;
+    margin: 0 auto;
+   }
+   .store {
+    grid-area: d;
+    width: 352px;
+    margin: 0 auto;
+    }
+}
+
+.access img, .security img, .real-time img, .store img{
     width: 60px;
     margin: 80px 0 25px 0;
 }
+@media screen and (min-width:1024px) {
+    .access img, .security img, .real-time img, .store img{
+        width: 70px; 
+    }  
+}
+
 .access , .security, .real-time, .store {
     color: hsl(0, 0%, 100%);
 }
 .access p, .security p, .real-time p, .store p{
    margin-top: 5px;
 }
+
 /* Products sections ends */
 
 /* Assurance Section starts */
@@ -107,12 +208,35 @@ button.hero-btn{
     color: hsl(0, 0%, 100%);
     margin-bottom: 150px;
 }
+@media screen and (min-width:1024px) {
+    .assurance{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 100px;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
 .stay-productive-logo img{
     width: 300px;
     margin-top: 100px;
 }
+@media screen and (min-width:1024px) {
+    .stay-productive-logo img{
+        width: 350px;
+        margin-top: 0;
+    }
+}
 .stay-productive-content{
     text-align: left;
+}
+@media screen and (min-width:1024px) {
+    .stay-productive-content{
+        text-align: left;
+        width: 502px;
+        margin-left: 50px;
+        padding-top: 40px;
+    }
 }
 .stay-productive-content h2{
     font-size: 19px;
@@ -125,14 +249,20 @@ button.hero-btn{
     margin-bottom: 10px;
 }
 .stay-productive-content a{
+    cursor: pointer;
     color:hsl(176, 68%, 64%) ;
     font-size: 12px;
     text-decoration: none;
 }
+.stay-productive-content a:hover{
+    color: hsl(0, 0%, 100%);
+}
 .stay-productive-content a img{
+    
     position: relative;
     top: 5px;
 }
+
 hr{
     width: 128px;
     height: 1px;
@@ -140,14 +270,35 @@ hr{
     margin-top: 3px;
     background-color: hsl(176, 68%, 64%) ;
 }
+hr:hover{
+    background-color:hsl(0, 0%, 100%);;
+}
 /* Assurance Section ends */
 
 /* Testimonial Section Starts */
+@media screen and (min-width:1024px) {
+    .testimonial{
+        display: flex;
+        justify-content: space-between;
+        width: 985px;
+        padding-top: 150px;
+        margin: 0 auto;
+    }
+}
+
 .quote{
     position: relative;
     top: 8px;
     left: 18px;
     z-index: -1;
+}
+@media screen and (min-width:1024px) {
+    .quote{
+        position: relative;
+        top: -12px;
+        left: 22px;
+        z-index: -1;
+    }
 }
 .quote img{
    width: 20px;
@@ -199,9 +350,18 @@ hr{
 
 /* iva-boyd-card starts */
 .iva-boyd-card{
-    width: 310px;
+    /* width: 310px;
     margin: 0 auto;
     margin-bottom: 150px;
+    line-height: 18px;
+    border-radius: 2px;
+    background-color:hsl(219, 30%, 18%);
+    color:hsl(0, 0%, 100%) ;
+    padding: 15px;
+    font-size: 12px; */
+    width: 310px;
+    margin: 0 auto;
+    margin-bottom: 25px;
     line-height: 18px;
     border-radius: 2px;
     background-color:hsl(219, 30%, 18%);
@@ -222,17 +382,26 @@ hr{
     font-size: 14px;
     padding:35px 20px;
     color:hsl(0, 0%, 100%) ;
-   position: relative;
-   /* bottom: 20px; */
+    position: relative;
+    border-radius: 10px;
     z-index: 1;
 
 }
-
+@media screen and (min-width:1024px) {
+    .get-early-access-card{
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 100px;
+        padding: 20px 80px;
+        /* border-radius: 10px; */
+    }
+}
 .get-early-access-card p{
     padding: 25px;
     font-size: 12px;
     line-height: 18px;
 }
+
 .btn-and-input input{
     padding: 12px 60px;
     font-size: 10px;
@@ -240,7 +409,14 @@ hr{
     border: none;
     margin-bottom: 20px;
 }
+@media screen and (min-width:1024px) {
+    .btn-and-input input{
+        padding: 11px 100px;
+    }
+
+}
 .get-early-btn{
+    cursor: pointer;
     padding: 10px 60px;
     text-align: center; 
     font-size: 14px;
@@ -248,6 +424,14 @@ hr{
     background-color:hsl(176, 68%, 64%);
     border-radius: 25px;
     border: none;
+}
+@media screen and (min-width:1024px) {
+    .get-early-btn{
+        padding: 10px 40px;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
 }
 
 /* footer starts */
@@ -263,10 +447,31 @@ footer{
     padding-top: 200px;
     padding-bottom: 20px;
 }
+
+@media screen and (min-width:1024px) {
+    .foot{
+        display: flex;
+        margin: 20px 20px 20px 80px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .logoandlocation{
+        width: 25%;
+    }
+}
 .flyoLogo img{
     width: 150px;
     margin: 20px 50px 25px 20px;
     padding-top: 20px;
+}
+@media screen and (min-width:1024px) {
+    .flyoLogo img{
+        width:60px;
+        /* height: 10px; */
+        margin:0 0 25px 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }
 .location{
 display: flex;
@@ -274,38 +479,96 @@ display: flex;
 .paraimg{
     padding-top: 10px;
 }
+@media screen and (min-width:1024px) {
+    .paraimg{
+        padding-top: 0;
+    }
+}
 .para p{
     color:hsl(0, 0%, 100%); 
     font-size: 16px;
     margin-left: 40px;
+}
+@media screen and (min-width:1024px) {
+    .para p{
+        /* color:hsl(0, 0%, 100%);  */
+        font-size: 12px;
+        margin-left: 15px;
+        /* width: 50%; */
+    }
+}
+
+@media screen and (min-width:1024px) {
+
 }
 .flyo-contact{
     display: flex;
     padding-top: 20px;
     color:hsl(0, 0%, 100%); 
 }
+@media screen and (min-width:1024px) {
+    .flyo-contact{
+        /* display: flex; */
+        font-size: 12px;
+        /* color:hsl(0, 0%, 100%);  */
+        padding-top: 0;
+    } 
+    .flyo-contact p{
+        font-size: 12px;
+    }
+}
 .number p{
     color:hsl(0, 0%, 100%); 
     font-size: 14px;
     margin-left: 35px;
+}
+@media screen and (min-width:1024px) {
+    .number p{
+        font-size: 12px;
+        margin-left: 15px;
+    }
 }
 .flyo-mail{
     display: flex;
     padding-top: 20px;
     color:hsl(0, 0%, 100%);
 }
+
 .femail{
     font-size: 14px;
     margin-left: 35px;
 }
+@media screen and (min-width:1024px) {
+    .femail{
+        font-size: 12px;
+        margin-left: 15px;
+    }
+}
 .footer-first-list{
     padding-top: 50px;
+}
+
+@media screen and (min-width:1024px) {
+    .footer-first-list{
+        padding-top: 0;
+    }
+    .footer-first-list ul li{
+        padding-top: 0;
+    }
 }
 .footer-first-list ul li{
     list-style-type: none;
     color:hsl(0, 0%, 100%) ;
     padding-top: 10px;
     font-size: 16px;
+}
+@media screen and (min-width:1024px) {
+    .footer-first-list{
+        padding-top: 0;
+    }
+    .footer-first-list ul li{
+        padding-top: 0;
+    }
 }
 .footer-second-list{
     padding-top: 25px;
